@@ -1,0 +1,16 @@
+Generics in Java
+
+1.Generics means parameterized types
+
+2.Using Generics, it is possible to create classes that work with different data types. 
+
+3.An entity such as class, interface, or method that operates on a parameterized type is a generic entity.
+
+
+
+Wildcard
+custome array
+lamda functions
+comparing objects
+
+

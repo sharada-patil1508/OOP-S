@@ -1,0 +1,9 @@
+1.Threads allows a program to operate more efficiently by doing multiple things at the same time.
+
+2.Threads can be used to perform complicated tasks in the background without interrupting the main program.
+
+3.It can be created by extending the Thread class and overriding its run() method:
+
+4.Another way to create a thread is to implement the Runnable interface:
+
+5.It can be created by extending the Thread class and overriding its run() method:

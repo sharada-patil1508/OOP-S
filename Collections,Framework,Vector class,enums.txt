@@ -1,0 +1,36 @@
+1.Java Collection Framework was introduced in JDK 1.2 which contains all the collection classes and interfaces
+
+2.Java Collection is a framework that provides a mechanism to store and manipulate the collection of objects. 
+
+3. It allows developers to access prepackaged data structures and algorithms for manipulating data. 
+
+4.Q1. What is the difference between ArrayList and Vector ?
+
+Ans. Vectors is synchronized whereas ArrayList is not. 
+
+Q2. What is the package name for  Vector class?
+
+Ans.java.util
+
+Q3. Which is the Parent Class of  Vector class?
+
+Ans.AbstractList
+
+Q4. Which interfaces are implemented by Vector?
+
+Ans.Serializable, Cloneable, Iterable, Collection, List, RandomAccess
+
+Q5. Do you know of any subclass of Vector ?
+
+Ans. Stack
+
+
+
+ENUMS
+
+1.An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
+
+2.To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters:
+
+3.In Java,Enumerations Java Enum serve the purpose of representing a group of named constants in a programming language.
+

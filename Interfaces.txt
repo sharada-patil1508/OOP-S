@@ -1,0 +1,22 @@
+>An interface in Java is a blueprint of a behavior. A Java interface contains static constants and abstract methods.
+
+>The interface in Java is a mechanism to achieve abstraction. 
+
+1.an interface could only have abstract methods (methods without a body) 
+
+2.public, static, and final variables by default
+
+3.It is used to achieve abstraction and multiple inheritances in Java.
+
+4.It is used to achive abstraction
+
+5.by interfaces ,we can support the functionality of multiple inheritance.
+
+6.it can be used to achive loose coupling
+	{Loose coupling is a design principle in software engineering, particularly in object-oriented programming like Java, that aims to minimize the dependencies between different components of a system.}
+
+7.Any class can extend only one class, but can implement multiple interfaces.
+
+8.A class can extend another class, and similarly, an interface can extend another interface.
+
+9.only calss can implement an interface but the interface can not be implemented by calss.

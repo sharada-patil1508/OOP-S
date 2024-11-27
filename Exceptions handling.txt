@@ -1,0 +1,64 @@
+1.Java Exception Handling is a mechanism to handle runtime errors such as   ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+	>In Java exception is an “unwanted or unexpected event”, that occurs during the execution of the program.
+
+2.Major reasons why an exception Occurs
+Invalid user input
+Device failure
+Loss of network connection
+Physical limitations (out-of-disk memory)
+Code errors
+Out of bound
+Null reference
+Type mismatch
+Opening an unavailable file
+Database errors
+Arithmetic errors
+
+3.Difference between Error and Exception
+  Error: An Error indicates a serious problem that a reasonable application should not try to   catch.
+
+Exception: Exception indicates conditions that a reasonable application might try to catch.
+
+4.All exception and error types are subclasses of the class Throwable
+
+5.Error is used by the Java run-time system(JVM) to indicate errors having to do with the run-time environment itself(JRE).
+
+types of exceptios
+1.User-defined Exceptions
+2.Built-in Exceptions
+   >checked Exceptions
+	Checked exceptions are called compile-time exceptions because these exceptions are 	checked at compile-time by the compiler.
+   >Unchecked Exceptions
+	The unchecked exceptions are just opposite to the checked exceptions. The compiler 	will not check these exceptions at compile time. In simple words, if a program 	throws an unchecked exception, and even if we didn’t handle or declare it, the 	program would not give a compilation error.
+	
+>refer GFG table
+
+
+
+6.	How Does JVM Handle an Exception?
+  	Default Exception Handling: Whenever inside a method, if an exception has occurred, 	the method creates an Object known as an Exception Object and hands it off to the 	run-time system(JVM).
+        	>There might be a list of the methods that had been called to get to the 		method 	where an exception occurred. This ordered list of methods is called 		Call Stack.
+
+
+7.	How Programmer Handle an Exception?
+	Customized Exception Handling: 
+	Java exception handling is managed via five keywords: try, catch, throw, throws, 	and finally.	
+
+8.The try block contains a set of statements where an exception can occur.
+
+9.The catch block is used to handle the uncertain condition of a try block. A try block is           always followed by a catch block
+
+10.The throw keyword is used to transfer control from the try block to the catch block. 
+
+11.The throws keyword is used for exception handling without try & catch block. It specifies the exceptions that a method can throw to the caller and does not handle itself. 
+
+12.It is executed after the catch block. We use it to put some common code (to be executed irrespective of whether an exception has occurred or not ) when there are multiple catch blocks. 
+
+13.For each try block, there can be zero or more catch blocks, but only one final block.
+
+
+14.public class Main {
+    public static void main(String[] args) throws ArithmeticException {
+}
+
+	>public static void main(String[] args) throws ArithmeticException: The main method 	is the entry point of the program. It declares that it can throw an 	ArithmeticException.
